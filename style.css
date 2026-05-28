@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Space Grotesk", sans-serif;;
+    font-family: "Space Grotesk", sans-serif;
 }
 
 :root {
@@ -15,6 +15,7 @@
 body {
     background-color: var(--background);
     color: var(--text-primary);
+    padding: 20px;
 }
 
 header {
@@ -36,12 +37,12 @@ header {
 
 textarea {
     width: 100%;
-    height: 200%;
+    height: 200px;
     padding: 20px;
     background-color: var(--textarea-bg);
     color: var(--text-primary);
-    border: var(--border-color);
-    border: 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
 
 }
 
@@ -49,6 +50,11 @@ textarea {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
+    width: 100%;
+    margin-top: 15px;
+}
 
+.checkbox-group {
+    display: flex;
+    gap: 20px;
 }
