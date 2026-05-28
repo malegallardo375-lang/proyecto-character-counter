@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,9 +8,39 @@
 :root {
   --background: #12131A;
   --text-primary: #F2F2F7;
+  --textarea-bg: #1C1F2A;
+  --border-color: #2A2D3A;
 }
 
 body {
     background-color: var(--background);
     color: var(--text-primary);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 200%;
+    padding: 20px;
+    background-color: var(--textarea-bg);
+    color: var(--text-primary);
+    border: var(--border-color);
+    border: 12px;
+    
 }
