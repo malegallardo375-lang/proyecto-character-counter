@@ -4,3 +4,13 @@
     box-sizing: border-box;
     font-family: "Space Grotesk", sans-serif;;
 }
+
+:root {
+  --background: #12131A;
+  --text-primary: #F2F2F7;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text-primary);
+}
