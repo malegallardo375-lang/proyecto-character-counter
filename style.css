@@ -42,5 +42,13 @@ textarea {
     color: var(--text-primary);
     border: var(--border-color);
     border: 12px;
-    
+
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
 }
