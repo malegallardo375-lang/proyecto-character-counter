@@ -10,6 +10,10 @@
   --text-primary: #F2F2F7;
   --textarea-bg: #1C1F2A;
   --border-color: #2A2D3A;
+  --purple-card:  #C99DFF ;
+  --coral-card: #FF9F00;
+  --orange-card: #FE8159;
+   
 }
 
 body {
@@ -37,7 +41,7 @@ header {
 
 textarea {
     width: 100%;
-    height: 200px;
+    height: 180px;
     padding: 20px;
     background-color: var(--textarea-bg);
     color: var(--text-primary);
@@ -57,4 +61,36 @@ textarea {
 .checkbox-group {
     display: flex;
     gap: 20px;
+}
+
+.stats {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 15px;
+    flex: 1;
+
+}
+
+.purple {
+    background-color: var(--purple-card);
+}
+
+.coral {
+    background-color: var(--coral-card);
+}
+
+.orange {
+    background-color: var(--orange-card);
+}
+
+.card h2 {
+    font-size: 40px;
 }
