@@ -13,6 +13,8 @@
   --purple-card:  #C99DFF ;
   --coral-card: #FF9F00;
   --orange-card: #FE8159;
+  --bar-color: #D19BFF;
+  --border-color: #2A2D3A;
    
 }
 
@@ -94,3 +96,48 @@ textarea {
 .card h2 {
     font-size: 40px;
 }
+
+.letter-density {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.density-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.bar-container {
+    flex: 1;
+    height: 10px;
+    background-color: var(--border-color);
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.bar {
+    height: 100%;
+    background-color: var(--bar-color);
+    border-radius: 5px;
+}
+.e-bar {
+    width: 28%;
+}
+
+.i-bar {
+    width: 18%;
+}
+
+.t-bar {
+    width: 16%;
+}
+
+.o-bar {
+    width: 12%;
+}
+
+.n-bar {
+    width: 10%;
+}
+
